@@ -264,7 +264,7 @@ static void force_tv_comma1_handler(struct option *option, enum option_cmd cmd, 
 static void aspect_ratio_handler(struct option *option, enum option_cmd cmd, int param) {
     if (cmd == OPTION_UPDATE) {
         if (param) {
-            option->value ^= -1;
+            option->value ^= 1;
         }
         x_gui_set_force_aspect_ratio(option->value);
         option->value_string = onoff_str(option->value);
