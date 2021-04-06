@@ -115,7 +115,7 @@ struct option options[] = {
         {
                 .handler = widescreen_handler,
                 .txt = "Widescreen",
-                .value = -1,
+                .value = 0,
         },
 #endif
 #if ENABLE_FRAME_SKIP
