@@ -75,12 +75,12 @@ struct option options[] = {
         {
                 .handler = sound_volume_handler,
                 .txt = "Sound Volume",
-                .value = 8,
+                .value = 10,
         },
         {
                 .handler = disc_volume_handler,
                 .txt = "Disc Volume",
-                .value = 8,
+                .value = 7,
         },
 #ifdef USE_SECTOR_READ
         {
